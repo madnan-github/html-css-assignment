@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trendy E-Commerce Store</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">Trendy<span>Store</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#new-arrivals">New Arrivals</a></li>
+                <li><a href="#trending">Trending</a></li>
+                <li><a href="#categories">Categories</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="#"><i class="fas fa-shopping-cart"></i></a>
+                <a href="#"><i class="fas fa-user"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero">
+            <div class="container">
+                <h1>Discover Your Style</h1>
+                <p>Explore our latest collection of trendy fashion and accessories.</p>
+                <a href="#new-arrivals" class="btn">Shop Now</a>
+            </div>
+        </section>
+
+        <section id="new-arrivals" class="new-arrivals">
+            <div class="container">
+                <h2>New Arrivals</h2>
+                <div class="product-grid">
+                    <div class="product-card">
+                        <img src="img/prod/001.jpg" alt="Product 1">
+                        <h3>Stylish Handbag</h3>
+                        <p class="price">$79.99</p>
+                        <button class="btn-secondary">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/prod/002.jpg" alt="Product 2">
+                        <h3>Elegant Purse</h3>
+                        <p class="price">$64.99</p>
+                        <button class="btn-secondary">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/prod/003.jpg" alt="Product 3">
+                        <h3>Leather Tote</h3>
+                        <p class="price">$89.99</p>
+                        <button class="btn-secondary">Add to Cart</button>
+                    </div>
+                    <div class="product-card">
+                        <img src="img/prod/004.jpg" alt="Product 4">
+                        <h3>Chic Clutch</h3>
+                        <p class="price">$54.99</p>
+                        <button class="btn-secondary">Add to Cart</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="trending" class="trending">
+            <div class="container">
+                <h2>Trending Now</h2>
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <img src="img/prod/013.jpg" alt="Trending 1">
+                            <div class="slide-content">
+                                <h3>Summer Collection</h3>
+                                <p>Discover our hottest summer styles</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/prod/014.jpg" alt="Trending 2">
+                            <div class="slide-content">
+                                <h3>Autumn Essentials</h3>
+                                <p>Get ready for the cooler days</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <img src="img/prod/015.jpg" alt="Trending 3">
+                            <div class="slide-content">
+                                <h3>Accessories Galore</h3>
+                                <p>Complete your look with our accessories</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="categories" class="categories">
+            <div class="container">
+                <h2>Shop by Category</h2>
+                <div class="category-grid">
+                    <a href="#" class="category-card">
+                        <img src="img/prod/005.jpg" alt="Women's Fashion">
+                        <h3>Women's Fashion</h3>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="img/prod/006.jpg" alt="Men's Fashion">
+                        <h3>Men's Fashion</h3>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="img/prod/007.jpg" alt="Accessories">
+                        <h3>Accessories</h3>
+                    </a>
+                    <a href="#" class="category-card">
+                        <img src="img/prod/008.jpg" alt="Footwear">
+                        <h3>Footwear</h3>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <div class="container">
+                <h2>Stay Updated</h2>
+                <p>Subscribe to our newsletter for exclusive deals and updates.</p>
+                <form>
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit" class="btn">Subscribe</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>About Us</h3>
+                    <p>Trendy Store is your one-stop shop for the latest fashion trends and accessories.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Shipping</a></li>
+                        <li><a href="#">Returns</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+            <p class="copyright">&copy; 2024 Trendy Store. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        });
+    </script>
+</body>
+</html>
